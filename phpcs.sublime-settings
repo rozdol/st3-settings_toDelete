@@ -1,0 +1,37 @@
+{
+    // Which file types (file extensions), do you want the plugin to
+    // execute for
+    "extensions_to_execute": ["php", "ctp", "js"],
+
+    "phpcs_executable_path": "/usr/local/bin/phpcs",
+    "phpcbf_executable_path": "/usr/local/bin/phpcbf",
+    "php_cs_fixer_executable_path": "/usr/local/bin/php-cs-fixer",
+
+    // Execute the sniffer on file save
+    "phpcs_execute_on_save": false,
+
+    // Execute phpmd
+    "phpmd_run": true,
+
+    // Execute the phpmd on file save
+    "phpmd_command_on_save": false,
+
+    // It seems python/sublime cannot always find the phpmd application
+    // If empty, then use PATH version of phpmd, else use the set value
+    "phpmd_executable_path": "",
+
+    // Additional arguments you can specify into the application
+    //
+    // Example:
+    // {
+    //     "codesize,unusedcode"
+    // }
+    "phpmd_additional_args": {
+        "cleancode,codesize,controversial,design,naming,unusedcode": ""
+    },
+
+    // Additional arguments you can specify into the application
+    "php_cs_fixer_additional_args": {
+        "--rules": "no_unused_imports"
+    },
+}

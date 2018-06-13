@@ -1,0 +1,33 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Additional PHP Snippets",
+		"Alignment",
+		"All Autocomplete",
+		"Asciidoctor",
+		"Boxy Theme",
+		"DocBlockr",
+		"Emmet",
+		"GitGutter",
+		"GotoDocumentation",
+		"INI",
+		"jQuery",
+		"Package Control",
+		"Phix Color Scheme",
+		"PHP Companion",
+		"Phpcs",
+		"Predawn",
+		"SCSS",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-php",
+		"TrailingSpaces",
+		"Twig",
+		"WakaTime",
+		"Xdebug Client"
+	]
+}
